@@ -43,3 +43,23 @@ object Bloxorz extends App:
         |------ooo-""".stripMargin
 
   println(Level1.solution)
+
+
+
+    /**
+   * Level 11 of the official Bloxorz game
+   */
+  object Level11 extends Level:
+    val level =
+      """-oooo-------
+        |-oToo-------
+        |-ooo--------
+        |-o---Sooooo-
+        |-o---oo--oo-
+        |ooooooo--ooo
+        |-----oo----o
+        |-----oooo--o
+        |-----ooooooo
+        |--------ooo-""".stripMargin
+
+  println(Level11.solution)
